@@ -20,4 +20,5 @@ Youri Blom
 ![plot](Figures/GitlabFigure.png)
 
 References:
+
 [1]. Calcabrini, Andres et al. Low-breakdown-voltage solar cells for shading-tolerant photovoltaic modules, Cell Reports Physical Science, Volume 3, Issue 12, 101155 (2022), https://doi.org/10.1016/j.xcrp.2022.101155

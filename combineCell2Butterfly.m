@@ -53,5 +53,5 @@ Istr3 = CurrentStrings(5,:)+CurrentStrings(6,:);
 CurrentButterfly = 2*Iaxis;
 
 % The voltage of the butterfly module is the sum of all substring voltages
-VoltageButterfly = interp1(Istr1,Vaxis,CurrentButterfly,'linear','extrap')+interp1(Istr2,Vaxis,CurrentButterfly,'linear','extrap')+interp1(Istr3,Vaxis,CurrentButterfly,'linear','extrap');
+VoltageButterfly = max(interp1(Istr1,Vaxis,CurrentButterfly,'linear','extrap'),0)+max(interp1(Istr2,Vaxis,CurrentButterfly,'linear','extrap'),0)+max(interp1(Istr3,Vaxis,CurrentButterfly,'linear','extrap'),0);
 end

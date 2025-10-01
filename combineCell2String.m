@@ -23,7 +23,7 @@ VoltageString = zeros(size(CurrentString));
 
 for cell_i = 1:size(Current,1)
     % For each cell, its voltage is added to the voltage of the string
-    ind = ~isinf(Current(cell_i,:));
+    ind = findFiniteUniquePoints(Current(cell_i,:));
     VoltageString = VoltageString + interp1(Current(cell_i,ind),Voltage(ind),CurrentString,'linear','extrap');
 end
 

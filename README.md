@@ -11,7 +11,7 @@ Also, the MATLAB scripts underlying all calculations are provided.
 Feel free to use this application for any educational or personal usage.
 I kindly ask you to refer to this webpage when using this application or code in any form.
 
-If you have any questions or interested in future visualization projects, feel free to reach out to y.blom@tudelft.nl
+If you have any questions or interested in future visualization projects, feel free to reach out to y.blom@tudelft.nl.
 Let's work together to better understand the partial shading performance of PV modules!
 
 With kind regards,
